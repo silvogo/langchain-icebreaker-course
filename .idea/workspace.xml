@@ -9,9 +9,11 @@
       <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/agents/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/agents/linkedin_lookup_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/twitter_lookup_agent.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ice_breaker.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/third_parties/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/third_parties/linkedin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_parties/twitter.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tools/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
@@ -48,12 +50,12 @@
     &quot;assignee&quot;: &quot;silvogo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/emarco177/ice_breaker&quot;,
-    &quot;accountId&quot;: &quot;7c18fb5e-885d-4c72-9a02-9e6953719141&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/emarco177/ice_breaker",
+    "accountId": "c042536a-27c9-4f09-9ad9-8b3ff8bd6d10"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -68,6 +70,8 @@
     "Python.ice_breaker_runner.executor": "Run",
     "Python.linkedin.executor": "Run",
     "Python.linkedin_lookup_engine.executor": "Run",
+    "Python.twitter.executor": "Run",
+    "Python.twitter_lookup_agent.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "1-start-here",
@@ -78,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
