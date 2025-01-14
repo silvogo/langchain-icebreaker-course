@@ -12,6 +12,7 @@ black = "*"
 python-dotenv = "*"
 langchain-ollama = "*"
 tweepy = "*"
+flask = "*"
 
 [dev-packages]
 

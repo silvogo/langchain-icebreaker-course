@@ -2,17 +2,17 @@ import os
 
 from attr.filters import exclude
 from dotenv import load_dotenv
-import tweepy
+#import tweepy
 import requests
 
 
-twitter_client = tweepy.Client(
-    bearer_token=os.environ["TWITTER_BEARER_TOKEN"],
-    consumer_key=os.environ["TWITTER_API_KEY"],
-    consumer_secret=os.environ["TWITTER_API_KEY_SECRET"],
-    access_token=os.environ["TWITTER_ACCESS_TOKEN"],
-    access_token_secret=os.environ["TWITTER_ACCESS_TOKEN_SECRET"],
-)
+# twitter_client = tweepy.Client(
+#     bearer_token=os.environ["TWITTER_BEARER_TOKEN"],
+#     consumer_key=os.environ["TWITTER_API_KEY"],
+#     consumer_secret=os.environ["TWITTER_API_KEY_SECRET"],
+#     access_token=os.environ["TWITTER_ACCESS_TOKEN"],
+#     access_token_secret=os.environ["TWITTER_ACCESS_TOKEN_SECRET"],
+# )
 
 def scrape_user_tweets(username, num_tweets=5, mock:bool = False):
     """
