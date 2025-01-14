@@ -20,7 +20,7 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock:bool = False ):
         header_dic = {'Authorization': f'Bearer {os.environ.get("PROXYCURL_API_KEY")}'}
         response = requests.get(
             api_endpoint,
-            params={"url": linkedin_profile_url },
+            params={"url": linkedin_profile_url},
             headers=header_dic,
             timeout=10
         )
